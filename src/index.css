@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --color-brand-blue: #0265d2;
+  --color-brand-darkblue: #093c78;
+  --color-brand-deepblue: #052144;
+  --color-brand-green: #15803d;
+  --color-brand-lightgreen: #22c55e;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h1, h2, h3, .font-heading {
+  font-family: 'Outfit', sans-serif;
+}
+
